@@ -5,24 +5,24 @@ import org.jointheleague.graphical.robot.Robot;
 public class TriangleShell {
 
 	// Create a new Robot
-
+	Robot geoff = new Robot();
 	
 	void go() {
 		// This code will draw one triangle whose sides are 100 pixels long....
 		// but first you have to write some code. Find the drawTriangle() method and 
 		// write the code to draw a triangle.
 		
-		drawTriangle(100); 
-
+		 
+		
 		// Run the program. Check that your triangle is the same as the first picture in the recipe.
 		// Remove the drawTriangle(100) from the program before you proceed.
 		
 		
 		// Make the robot go as fast as possible
-		
+		geoff.setSpeed(199);
 
 		// Make a variable to hold the length of the triangle and set it to 50
-
+		int triangle_length=+ 50;
 		// Make another variable to count how many triangles have been drawn and set it to 0
 
 		// Start a while loop to draw 60 triangles
